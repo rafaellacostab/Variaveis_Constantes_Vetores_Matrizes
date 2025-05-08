@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo de Código JavaScript</title>
+</head>
+<body>
+  <h1>Abra o console para ver os resultados (F12)</h1>
+  
+  <script>
+    // ---------- VARIÁVEIS ----------
+
+    // String (texto)
+    let nome = "Rafaella";
+
+    // Número inteiro
+    let idade = 23;
+
+    // Booleano (true ou false)
+    let estudante = true;
+
+    // ---------- CONSTANTES ----------
+
+    const curso = "Sistemas de Informação";
+    const anoAtual = 2025;
+    const amaProgramar = true;
+
+    // ---------- VETORES (arrays) ----------
+
+    // Array de strings
+    let frutas = ["kiwi", "banana", "morango"];
+
+    // Array de números
+    let notas = [8.5, 9.0, 7.3];
+
+    // Array de booleanos
+    let respostas = [true, false, true];
+
+    // Acessando elementos do array
+    console.log("Primeira fruta:", frutas[0]); // kiwi
+    console.log("Segunda nota:", notas[1]);    // 9.0
+
+    // ---------- MATRIZES (arrays de arrays) ----------
+
+    // Matriz numérica
+    let matrizNumeros = [
+      [1, 2, 3],
+      [4, 5, 6],
+      [7, 8, 9]
+    ];
+
+    // Acessando elemento da 2ª linha, 3ª coluna
+    console.log("Elemento da 2ª linha, 3ª coluna:", matrizNumeros[1][2]); // 6
+
+    // Matriz de nomes
+    let matrizNomes = [
+      ["Fernanda", "Luis Fernando"],
+      ["Luis Gustavo", "Kyara"]
+    ];
+
+    console.log("Nome na posição [0][1]:", matrizNomes[0][1]); // Luis Fernando
+
+    // ---------- EXIBIÇÃO FINAL ----------
+    
+    console.log("Nome:", nome);
+    console.log("Idade:", idade);
+    console.log("Estudante?", estudante);
+    console.log("Curso:", curso);
+    console.log("Ano Atual:", anoAtual);
+    console.log("Ama programar?", amaProgramar);
+  </script>
+</body>
+</html>
